@@ -1,0 +1,61 @@
+td, th {
+	border: 1px solid;
+  }
+
+body, table {
+  margin: 0.5;
+  padding: 0.5;
+  font-family: Arial, sans-serif;
+  background-image: url('../images/Space.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white; 
+}
+
+
+h1 {
+  font-size: 25pt;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-thickness: 0.8px;
+
+}
+
+
+
+#planets {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px dotted;
+  margin-top: 20px;
+}
+
+#planets img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+#planets th, #planets td {
+  padding: 10px;
+  border: 1px dotted;
+  text-align: center;
+}
+
+#planets th {
+  background-color:none;
+  font-weight: bold;
+}
+
+#planets td:first-child {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+
